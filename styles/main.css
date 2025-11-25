@@ -28,3 +28,15 @@
   transform: translateX(-50%);
   color: white;
 }
+
+/* ========== New Collection Section ========== */
+.product-img-wrapper {
+  overflow: hidden; /* يمنع الصورة من الخروج خارج الإطار */
+}
+.card-img-top {
+  transition: 0.35s ease;
+  object-fit: cover;
+}
+.card:hover .card-img-top {
+  transform: scale(1.07);
+}
