@@ -16,3 +16,15 @@
 .navbar-brand {
   font-family: "MontserratAlternates";
 }
+
+/* ========== Hero Section ========== */
+.hero {
+  position: relative;
+}
+.hero a {
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+}
