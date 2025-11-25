@@ -28,10 +28,13 @@
   transform: translateX(-50%);
   color: white;
 }
+.hero img {
+  max-height: calc(100vh - 56px);
+}
 
-/* ========== New Collection Section ========== */
+/* ========== Collection Section ========== */
 .product-img-wrapper {
-  overflow: hidden; /* يمنع الصورة من الخروج خارج الإطار */
+  overflow: hidden;
 }
 .card-img-top {
   transition: 0.35s ease;
@@ -39,4 +42,9 @@
 }
 .card:hover .card-img-top {
   transform: scale(1.07);
+}
+
+/* ========== Footer ========== */
+footer h4 {
+  font-family: "MontserratAlternates";
 }
