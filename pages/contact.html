@@ -4,6 +4,151 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MagnifiSoo | Contact</title>
+    <!-- ========== CSS files ========== -->
+    <!-- font awesome file -->
+    <link rel="stylesheet" href="../styles/all.min.css" />
+    <!-- Bootstrap css file -->
+    <link rel="stylesheet" href="../styles/bootstrap.min.css" />
+    <!-- main css style file -->
+    <link rel="stylesheet" href="../styles/main.css" />
   </head>
-  <body></body>
+  <body>
+    <div>
+      <!-- ========== Header ========== -->
+      <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"> MagnifiSoo </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="../index.html"
+                    >Home</a
+                  >
+                </li>
+                <!-- category dropdown -->
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Category
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="../index.html#new-collection"
+                        >New Collection</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="../index.html#collections"
+                        >Collections</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <div>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="pages/contact.html">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <!-- ========== Contact Section ========== -->
+      <section>
+        <div class="container mt-5 mb-5">
+          <h2 class="text-center mb-5">Contact Us</h2>
+          <form action="">
+            <div class="mb-3">
+              <label for="NameInput" class="form-label">Name:</label>
+              <input type="text" class="form-control" id="NameInput" />
+            </div>
+            <div class="mb-3">
+              <label for="phoneInput" class="form-label">Phone Number</label>
+              <input
+                type="tel"
+                class="form-control"
+                id="phoneInput"
+                placeholder="name@example.com"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label"
+                >Email address</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="name@example.com"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label"
+                >Example textarea</label
+              >
+              <textarea
+                class="form-control mb-5"
+                id="exampleFormControlTextarea1"
+                rows="10"
+              ></textarea>
+            </div>
+          </form>
+        </div>
+      </section>
+      <!-- ========== Footer ========== -->
+      <footer>
+        <div class="bg-dark text-center text-white py-3">
+          <h4 class="fs-1">MagnifiSoo</h4>
+          <!-- === social media === -->
+          <a
+            class="text-white text-decoration-none"
+            href="https://www.facebook.com/magnifisoo?mibextid=ZbWKwL"
+            target="_blank"
+          >
+            <i class="fa-brands fa-2x fa-facebook"></i>
+          </a>
+          <a
+            class="text-white text-decoration-none"
+            href="https://www.instagram.com/magnifisoo_designs?igsh=MTUxcWg1bjR5NnBlcQ=="
+            target="_blank"
+          >
+            <i class="fa-brands fa-2x fa-instagram"></i>
+          </a>
+          <hr />
+          <p class="mb-0">© 2025 MagnifiSoo. All rights reserved.</p>
+        </div>
+      </footer>
+      <!-- ========== JS files ========== -->
+      <!-- Bootstrap JS files -->
+      <script src="../scripts/bootstrap.bundle.min.js"></script>
+      <!-- main JS script file  -->
+      <script src="../scripts/main.js"></script>
+    </div>
+  </body>
 </html>
